@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Book Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+To setup for this, first you have to cmd and type git clone https://github.com/Zeeshan-1998/Book-Portal.git
 
 In the project directory, you can run:
 
