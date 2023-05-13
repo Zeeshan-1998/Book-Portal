@@ -1,6 +1,23 @@
 # Getting Started with Book Portal
 
-To setup for this, first you have to cmd and type git clone https://github.com/Zeeshan-1998/Book-Portal.git
+To setup for this, first you go to destination/folder in which you want to then open git bash and type git clone https://github.com/Zeeshan-1998/Book-Portal.git
+
+After cloning open Book-Portal Folder in Visual Studio Code then go to terminal and type npm install and wait for the packages to install for frontend
+
+Then open the new terminal and type cd Backend and type npm install and wait for packages to install
+
+After install all packages Open PostgresSQL terminal or pg-admin GUI and create database named bookportal
+
+Then in that database create a table named book with following entities:
+
+### `CREATE TABLE books (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  author VARCHAR(255) NOT NULL,
+  no_of_pages INTEGER NOT NULL,
+  published_at DATE NOT NULL
+);`
+
 
 In the project directory, you can run:
 
