@@ -6,6 +6,9 @@ After cloning open Book-Portal Folder in Visual Studio Code then go to terminal 
 
 Then open the new terminal and type cd Backend and type npm install and wait for packages to install
 
+After this in Visual Studio Code go to backend folder and open index.js file and add your username and password in Database connection to connect backend with your PostgresSql database
+
+
 After install all packages Open PostgresSQL terminal or pg-admin GUI and create database named bookportal
 
 Then in that database create a table named book with following entities:
