@@ -10,10 +10,10 @@ const port = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Database connection
+// Database connection enter your username and password of your PostgresSql here
 const pool = new Pool({
-  user: "postgres",
-  password: "abc@123",
+  user: "your username",
+  password: "your password",
   host: "localhost",
   port: 5432,
   database: "bookportal",
