@@ -1,4 +1,5 @@
 const express = require("express");
+require('dotenv').config();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const { Pool } = require("pg");
@@ -12,11 +13,11 @@ app.use(bodyParser.json());
 
 // Database connection enter your username and password of your PostgresSql here
 const pool = new Pool({
-  user: "your username",
-  password: "your password",
-  host: "localhost",
-  port: 5432,
-  database: "bookportal",
+  user: process.env.DB_User,
+  password: process.env.DB_Password,
+  host: process.env.DB_Host,
+  port: process.env.DB_Port,
+  database: process.env.DB_Database,
 });
 
 // Routes

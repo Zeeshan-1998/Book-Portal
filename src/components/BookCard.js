@@ -10,7 +10,7 @@ const BookCard = ({ book, onDelete }) => {
     <div className="card book-card">
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
-        <p className="card-text">By: {author}</p>
+        <p className="card-text">Author: {author}</p>
         <p className="card-text">Number of Pages: {no_of_pages}</p>
         <div className="d-flex justify-content-between align-items-center mt-2">
           <Link className="btn btn-primary" to={`/edit/${id}`}>
